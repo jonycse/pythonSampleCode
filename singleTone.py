@@ -13,10 +13,3 @@ class Child( Singleton ):
         self.__name = name
     def name( self ):
         return self.__name
-
-
-cha=Child("Child name is gee")
-print(cha.name())
-
-chb=Child("Child name is geeNEW")
-print(chb.name())
