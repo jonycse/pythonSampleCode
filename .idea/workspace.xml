@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d22e5de-4a3e-47a6-8c72-92eaeaee8c45" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/designPatternAbstractFactory.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/decoratonSample.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/designPatternIterator.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/designPatternSingleton.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="pythonSampleCode.iws" />
@@ -28,10 +26,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="designPatternAbstractFactory.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/designPatternAbstractFactory.py">
+      <file leaf-file-name="decoratonSample.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/decoratonSample.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="40" selection-start="316" selection-end="316" vertical-scroll-proportion="0.40117994">
+            <state line="7" column="19" selection-start="100" selection-end="100" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="designPatternIterator.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/designPatternIterator.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="20" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="readme.txt" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/readme.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="0" selection-start="33" selection-end="33" vertical-scroll-proportion="0.03142329">
               <folding />
             </state>
           </provider>
@@ -50,8 +66,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/publicVsPrivate.py" />
-        <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/privateClass.py" />
         <option value="$PROJECT_DIR$/dynamicCodeExecute.py" />
         <option value="$PROJECT_DIR$/dynamicallAddClassFunction.py" />
@@ -66,6 +80,8 @@
         <option value="$PROJECT_DIR$/designPatternSingleton.py" />
         <option value="$PROJECT_DIR$/designPatternIterator.py" />
         <option value="$PROJECT_DIR$/designPatternAbstractFactory.py" />
+        <option value="$PROJECT_DIR$/decoratonSample.py" />
+        <option value="$PROJECT_DIR$/readme.txt" />
       </list>
     </option>
   </component>
@@ -101,6 +117,16 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -121,25 +147,15 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
-    <property name="options.searchVisible" value="true" />
+    <property name="recentsLimit" value="5" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -149,27 +165,7 @@
       <PyConsoleSettings />
     </option>
   </component>
-  <component name="RunManager" selected="Python.designPatternAbstractFactory">
-    <configuration default="false" name="serilize" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <module name="pythonSampleCode" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/serilize.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="MULTIPROCESS" value="false" />
-      <RunnerSettings RunnerId="PyDebugRunner" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PyDebugRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.decoratonSample">
     <configuration default="false" name="subclassName" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -236,6 +232,24 @@
       <module name="pythonSampleCode" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/designPatternAbstractFactory.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="MULTIPROCESS" value="false" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="decoratonSample" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <module name="pythonSampleCode" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/decoratonSample.py" />
       <option name="PARAMETERS" value="" />
       <option name="MULTIPROCESS" value="false" />
       <RunnerSettings RunnerId="PythonRunner" />
@@ -315,11 +329,11 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python.staticVsClassMethod" />
-      <item index="1" class="java.lang.String" itemvalue="Python.serilize" />
-      <item index="2" class="java.lang.String" itemvalue="Python.subclassName" />
-      <item index="3" class="java.lang.String" itemvalue="Python.jsonpickletest" />
-      <item index="4" class="java.lang.String" itemvalue="Python.singleTone" />
-      <item index="5" class="java.lang.String" itemvalue="Python.designPatternAbstractFactory" />
+      <item index="1" class="java.lang.String" itemvalue="Python.subclassName" />
+      <item index="2" class="java.lang.String" itemvalue="Python.jsonpickletest" />
+      <item index="3" class="java.lang.String" itemvalue="Python.singleTone" />
+      <item index="4" class="java.lang.String" itemvalue="Python.designPatternAbstractFactory" />
+      <item index="5" class="java.lang.String" itemvalue="Python.decoratonSample" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -355,23 +369,35 @@
       <created>1347840230042</created>
       <updated>1347840230042</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Abstract factory pattern">
+      <created>1347847485738</created>
+      <updated>1347847485738</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add readme">
+      <created>1348177831897</created>
+      <updated>1348177831897</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Add readme">
+      <created>1348178058328</created>
+      <updated>1348178058328</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="1" width="1364" height="726" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.312596" sideWeight="0.64310956" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31797236" sideWeight="0.64310956" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39929327" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35689047" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35689047" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -386,7 +412,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="false" />
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_NEW_TODO" value="true" />
     <option name="myTodoPanelSettings">
@@ -419,7 +445,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="singleton design pattern sample add" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add readme" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -434,21 +460,13 @@
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="commit test from pycharm" />
     <MESSAGE value="singleton design pattern sample add" />
+    <MESSAGE value="Abstract factory pattern" />
+    <MESSAGE value="Add readme" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/staticVsClassMethod.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="336" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/publicVsPrivate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="160" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/privateClass.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="42" selection-start="265" selection-end="265" vertical-scroll-proportion="0.0" />
@@ -486,49 +504,51 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="10" selection-start="155" selection-end="155" vertical-scroll-proportion="0.6519174">
-          <folding />
-        </state>
+        <state line="15" column="10" selection-start="155" selection-end="155" vertical-scroll-proportion="0.6519174" />
       </provider>
     </entry>
     <entry file="file://C:/Python27/Lib/site-packages/jsonpickle/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="290" column="43" selection-start="9956" selection-end="10033" vertical-scroll-proportion="0.050147492">
-          <folding />
-        </state>
+        <state line="290" column="43" selection-start="9956" selection-end="10033" vertical-scroll-proportion="0.050147492" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/designPatternSingleton.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="536" selection-end="536" vertical-scroll-proportion="0.24778761">
-          <folding />
-        </state>
+        <state line="20" column="0" selection-start="536" selection-end="536" vertical-scroll-proportion="0.24778761" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/singleTone.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="29" selection-start="0" selection-end="760" vertical-scroll-proportion="1.2035398">
-          <folding />
-        </state>
+        <state line="24" column="29" selection-start="0" selection-end="760" vertical-scroll-proportion="1.2035398" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jsonpickletest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="35" selection-start="407" selection-end="407" vertical-scroll-proportion="0.95280236">
+        <state line="19" column="35" selection-start="407" selection-end="407" vertical-scroll-proportion="0.95280236" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designPatternAbstractFactory.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="330" selection-end="330" vertical-scroll-proportion="0.45132744" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decoratonSample.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="19" selection-start="100" selection-end="100" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/designPatternIterator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="20" selection-end="20" vertical-scroll-proportion="0.050147492">
+        <state line="0" column="0" selection-start="0" selection-end="20" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/designPatternAbstractFactory.py">
+    <entry file="file://$PROJECT_DIR$/readme.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="40" selection-start="316" selection-end="316" vertical-scroll-proportion="0.40117994">
+        <state line="1" column="0" selection-start="33" selection-end="33" vertical-scroll-proportion="0.03142329">
           <folding />
         </state>
       </provider>
