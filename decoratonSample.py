@@ -1,22 +1,16 @@
-from pprint import pprint
+class MyDecorator(object):
+    def __init__(self, f):
+        self.doSomethingCopy=f
+        print "This line will call on decoration"
 
-def mydeco(*kwargs):
-    return True
+    def __call__(self,p,q):
+        print "This line will work when we call the function 'doSomething' "
+        self.doSomethingCopy(p+1,q+1)
 
-
-def accept(f):
-    def sub(*args):
-        s=0
-        for n in args:
-            s+=n
-        return s
-    return sub
-
-
-@accept
-def add(a,b):
-    return a+b
+@MyDecorator
+def doSomething(a,b):
+    print "I am doing something"
+    print "A ",a," B ",b
 
 
-print add(2,3)
-print add(2,5,3,10)
+doSomething(3,4)
