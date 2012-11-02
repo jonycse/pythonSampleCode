@@ -1,7 +1,8 @@
 #################
 ## Eclipse
 #################
-
+test.py
+*.pyc
 *.pydevproject
 .project
 .metadata
