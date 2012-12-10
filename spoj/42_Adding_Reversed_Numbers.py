@@ -1,5 +1,6 @@
 '''
 Problem set: https://www.spoj.pl/problems/ADDREV/
+Status: Accepted
 '''
 
 n=input()

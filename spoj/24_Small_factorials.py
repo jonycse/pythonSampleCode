@@ -1,5 +1,6 @@
 '''
 Problem set: https://www.spoj.pl/problems/FCTRL2/
+Status: Accepted
 '''
 
 def fact(n):
