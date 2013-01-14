@@ -23,4 +23,4 @@ print "name ", a.getName()
 print "Id ", a.getId()
 
 
-#print a.__name__author__ = 'user'
+#print a.__name #error
