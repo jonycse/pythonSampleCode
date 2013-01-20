@@ -30,6 +30,8 @@ local.properties
 .buildpath
 
 .idea
+celeryconfig.py
+celeryconfig.pyc
 
 input
 
