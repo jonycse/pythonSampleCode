@@ -3,7 +3,7 @@ try:
 except ZeroDivisionError:
     print "Divide by zero"
 try:
-    v = "AA"
+    v = "CSE"
     int(v)
 except ValueError:
     print "Value error"
