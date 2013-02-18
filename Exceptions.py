@@ -11,4 +11,4 @@ except ValueError:
 try:
     raise Exception("Exception info")
 except Exception as data:
-    print str(data.args)
+    print data.args
