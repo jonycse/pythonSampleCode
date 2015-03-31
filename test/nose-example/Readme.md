@@ -5,7 +5,8 @@
 
 ### Links
   + [Docs][1]
-  + [Very good tutorial][2]
+  + [My blog post][3]
   
 [1]: https://nose.readthedocs.org/en/latest/
 [2]: http://pythontesting.net/framework/nose/nose-introduction/
+[3]: http://jpython.blogspot.com/search/label/nose
