@@ -40,6 +40,7 @@ def test_multi_num():
 
 Output:
 
+
 Run SETUP
 Running test ADD
 Run TEAR-DOWN
@@ -47,4 +48,9 @@ Run TEAR-DOWN
 Run SETUP
 Running test MULTI
 Run TEAR-DOWN
+.
+----------------------------------------------------------------------
+Ran 2 tests in 0.002s
+
+OK
 '''

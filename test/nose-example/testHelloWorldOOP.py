@@ -53,4 +53,9 @@ TEAR-DOWN
 ********** Test multi num
 TEAR-DOWN
 .Main Teardown
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.002s
+
+OK
 '''
