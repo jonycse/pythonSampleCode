@@ -3,9 +3,8 @@ from nose import with_setup
 __author__ = 'AbuZahedJony'
 
 '''
-
 nosetests testHelloWorld.py
-nosetests -s testHelloWorld.py
+nosetests -s testHelloWorld.py # show log
 '''
 
 from helloWorld import add_two_num
