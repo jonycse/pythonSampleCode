@@ -39,3 +39,18 @@ class TestHelloWorld:
         print 10*"*"+" Test multi num"
         assert multi_two_num(2, 3) == 6
         assert multi_two_num(-2, 3) == -6
+
+
+'''
+
+Output:
+
+Main Setup
+SETUP
+********** Test add num
+TEAR-DOWN
+.SETUP
+********** Test multi num
+TEAR-DOWN
+.Main Teardown
+'''

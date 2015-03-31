@@ -36,3 +36,15 @@ def test_multi_num():
     assert multi_two_num(-2, 3) == -6
     assert multi_two_num(-2, -3) == 6
 
+'''
+
+Output:
+
+Run SETUP
+Running test ADD
+Run TEAR-DOWN
+.
+Run SETUP
+Running test MULTI
+Run TEAR-DOWN
+'''
