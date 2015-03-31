@@ -1,11 +1,4 @@
-Here I upload my blog sample code.
-#Blog:
-### http://jpython.blogspot.com/
+All source code of my blog [http://jpython.blogspot.com/][1]
 
-#Topics:
-+ Python basic syntax
-+ OOP
-+ Design pattern
-+ Problem solving in python
-+ Graph algorithm(BFS, DFS)
 
+[1]: http://jpython.blogspot.com/ 
