@@ -60,7 +60,7 @@ class IMDB(object):
 
 def get_url_content(url):
     r = requests.get(url)
-    print (r.status_code)
+    #print (r.status_code)
     content = r.text.encode('utf-8', 'ignore')
     return content
 
