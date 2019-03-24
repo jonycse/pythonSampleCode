@@ -2,11 +2,6 @@ from bs4 import BeautifulSoup
 import requests
 
 
-def get_data_prity(d):
-    r = d.find(text=True, recursive=False)
-    return str(r.strip())
-
-
 class IMDB(object):
     """Get all information of a imdb movie, pass html content of imdb page"""
 
@@ -19,19 +14,19 @@ class IMDB(object):
     def _get_year(self):
 
         d = self.soup.select(".title_bar_wrapper .titleBar .subtext a")
-        release_date = get_data_prity(d[len(d) - 1])
+        release_date = self._get_data_prity(d[len(d) - 1])
 
         return release_date.split()[2]
 
     def _get_rating(self):
         d = self.soup.select(".title_bar_wrapper .ratingValue span")[0]
 
-        return get_data_prity(d)
+        return self._get_data_prity(d)
 
     def _get_name(self):
         d = self.soup.select(".title_bar_wrapper .titleBar .title_wrapper h1")[0]
 
-        return get_data_prity(d)
+        return self._get_data_prity(d)
 
     def get_info(self):
         """
@@ -51,12 +46,16 @@ class IMDB(object):
         a = self.soup.select(".title_bar_wrapper .subtext a")
         for i in range(0, len(a) - 1):
             n = a[i]
-            w.append(get_data_prity(n))
+            w.append(self._get_data_prity(n))
         return w
 
     def get_review_count(self):
         d = self.soup.select(".title_bar_wrapper .imdbRating .small")[0]
-        return get_data_prity(d)
+        return self._get_data_prity(d)
+
+    def _get_data_prity(self, d):
+        r = d.find(text=True, recursive=False)
+        return str(r.strip())
 
 def get_url_content(url):
     r = requests.get(url)
